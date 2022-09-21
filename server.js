@@ -9,4 +9,4 @@ app.listen((config.port), function () {
     console.log(`HTTP addon accessible at: ${config.local}/configure`);
 });
 
-publishToCentral(`${config.local}/manifest.json`)
+publishToCentral("https://2ecbbd610840-subscene.baby-beamup.club/manifest.json")
