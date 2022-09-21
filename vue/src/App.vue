@@ -96,6 +96,17 @@
                             </ul>
                         </div>
 
+                        <div class="flex items-center justify-center space-x-2 mt-5">
+                            <span class="h-px w-full bg-gray-200"></span>
+                        </div>
+
+                        <div class="items-center mt-5 description">
+                            <h2 class="font-semibold text-lg mr-auto">IMPORTANT:</h2>
+                            <p>Addic7ed limites anonymous users to <b>15 downloads per 24 hours</b> on their IP address
+                               
+                            </p>
+                        </div>
+
                         <div class="flex items-center justify-center space-x-2 mt-10">
                             <span class="h-px w-full bg-gray-200"></span>
                         </div>
@@ -155,7 +166,7 @@
                             UI by:
                             <a href="https://github.com/rleroi" target="_blank" class="text-purple-700">rab1t</a><br />
                             Background by:
-                            <a href="https://github.com/alesinka" target="_blank" class="text-purple-700">Alesinka</a>
+                            <a href="https://www.artstation.com/leuvix" target="_blank" class="text-purple-700">Leonardo Hernandes</a>
                             .
                         </p>
                     </div>

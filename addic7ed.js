@@ -42,8 +42,8 @@ async function subtitles(type, imdbid, lang) {
             subtitles = subtitlesList[lang];
             for (let i = 0; i < subtitles.length; i++) {
                 let subInfo = subtitles[i];
-                let options = `d=${encodeURIComponent(config.BaseURL)}&h=referer:${encodeURIComponent(config.BaseURL+ (subInfo.referer || '/show/1'))}`;
-                subs.push({ 
+                let options = `d=${encodeURIComponent(config.BaseURL)}&h=referer:${encodeURIComponent(config.BaseURL + (subInfo.referer || '/show/1'))}`;
+                subs.push({
                     lang: languages[lang].iso || languages[lang].id,
                     id: `${cachID}_${i}`,
                     url: `http://127.0.0.1:11470/proxy/${options}/${subInfo.link}.srt`,

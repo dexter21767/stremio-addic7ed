@@ -36,5 +36,4 @@ async function getMeta(type, id) {
     }
 }
 
-//getMeta("series", 'tt0903747').then(meta => (console.log(meta)))
 module.exports = getMeta;

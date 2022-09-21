@@ -61,7 +61,7 @@ app.get('/:configuration?/:resource/:type/:id/:extra?.json', (req, res) => {
 			res.end();
 		}
 	}
-}) 
+})
 
 
 module.exports = app
