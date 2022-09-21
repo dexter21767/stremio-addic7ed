@@ -1,0 +1,27 @@
+{
+    "id": "community.addic7ed",
+    "version": "0.0.1",
+    "name": "addic7ed subtitles by dexter21767",
+    "description": "Addon for getting subtitles from addic7ed, by Dexter21767.",
+    "logo": "https://www.addic7ed.com/images/addic7edlogonew.png",
+    "background": "https://github.com/Stremio/stremio-art/raw/main/originals/Leonardo-Hernandes.png",
+    "contactEmail": "ahmidiyasser@gmail.com",
+    "catalogs": [],
+    "resources": [{
+            "name": "subtitles",
+            "types": [
+                "series"
+            ],
+            "idPrefixes": [
+                "tt"
+            ]
+        }
+    ],
+    "types": [
+            "series"
+    ],
+    "behaviorHints": {
+        "configurable": true,
+        "configurationRequired": true
+    }
+}

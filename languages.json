@@ -1,0 +1,18 @@
+{
+  "arabic": { "id": "arabic", "name": "Arabic", "iso": "ara" },
+  "catalan": { "id": "catalan", "name": "Catalan", "iso": "cat" },
+  "english": { "id": "english", "name": "English", "iso": "eng" },
+  "french": { "id": "french", "name": "French", "iso": "fra" },
+  "german": { "id": "german", "name": "German", "iso": "deu" },
+  "greek": { "id": "greek", "name": "Greek", "iso": "grc" } ,
+  "hungarian-english": { "id": "hungarian-english", "name": "Hungarian/ English", "iso": null } ,
+  "italian": { "id": "italian", "name": "Italian", "iso": "ita" },
+  "farsi_persian": { "id": "farsi_persian", "name": "Farsi/Persian", "iso": "fas" },
+  "polish": { "id": "polish", "name": "Polish", "iso": "pol" },
+  "portuguese": { "id": "portuguese", "name": "Portuguese", "iso": "por" },
+  "brazillian-portuguese": {"id": "brazillian-portuguese","name": "Brazillian Portuguese","iso": null},
+  "romanian": { "id": "romanian", "name": "Romanian", "iso": "ron" },
+  "russian": { "id": "russian", "name": "Russian", "iso": "rus" },
+  "spanish": { "id": "spanish", "name": "Spanish", "iso": "spa" },
+  "swedish": { "id": "swedish", "name": "Swedish", "iso": "swe" }
+}
