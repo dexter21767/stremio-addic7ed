@@ -158,15 +158,18 @@
                             Addon</button></a>
                     </div>
 
+                    <div class="flex items-center justify-center space-x-2 mt-5">
+                        <span class="h-px w-full bg-gray-200"></span>
+                    </div>
 
-                    <div class="mt-5 flex flex-col">
-                        <p class="text-center text-gray-400">This addon was created by:
+                    <div class="flex flex-col mt-5">
+                        <p class="text-center">This addon was created by:
                             <a href="https://github.com/dexter21767" target="_blank"
-                                class="text-purple-700">dexter21767</a><br />
+                                class="text-purple-700"><b style="font-weight: 600;">dexter21767</b></a><br />
                             UI by:
-                            <a href="https://github.com/rleroi" target="_blank" class="text-purple-700">rab1t</a><br />
+                            <a href="https://github.com/rleroi" target="_blank" class="text-purple-700"><b style="font-weight: 600;">rab1t</b></a><br />
                             Background by:
-                            <a href="https://www.artstation.com/leuvix" target="_blank" class="text-purple-700">Leonardo Hernandes</a>
+                            <a href="https://www.artstation.com/leuvix" target="_blank" class="text-purple-700"><b style="font-weight: 600;">Leonardo Hernandes</b></a>
                             .
                         </p>
                     </div>
