@@ -4,9 +4,7 @@ const cors = require('cors');
 const path = require('path');
 const subtitles = require('./addic7ed');
 const manifest = require("./manifest.json");
-
 const languages = require('./languages.json');
-
 
 app.set('trust proxy', true)
 
@@ -14,7 +12,6 @@ app.use('/configure', express.static(path.join(__dirname, 'vue', 'dist')));
 app.use('/assets', express.static(path.join(__dirname, 'vue', 'dist', 'assets')));
 
 app.use(cors())
-
 
 app.get('/', (_, res) => {
 	res.redirect('/configure')
@@ -62,6 +59,5 @@ app.get('/:configuration?/:resource/:type/:id/:extra?.json', (req, res) => {
 		}
 	}
 })
-
 
 module.exports = app

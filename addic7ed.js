@@ -47,7 +47,6 @@ async function subtitles(type, imdbid, lang) {
                     lang: languages[lang].iso || languages[lang].id,
                     id: `${cachID}_${i}`,
                     url: `http://127.0.0.1:11470/proxy/${options}/${subInfo.link}.srt`,
-                    //url: `http://127.0.0.1:11470/subtitles.vtt?from=${config.local}/${encodeURIComponent(subInfo.referer)}/${encodeURIComponent(subInfo.link)}.srt`,
                 });
             }
             console.log('subs', subs);
