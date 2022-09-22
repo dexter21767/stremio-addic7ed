@@ -43,10 +43,11 @@ async function subtitles(type, imdbid, lang) {
             for (let i = 0; i < subtitles.length; i++) {
                 let subInfo = subtitles[i];
                 let options = `d=${encodeURIComponent(config.BaseURL)}&h=referer:${encodeURIComponent(config.BaseURL + (subInfo.referer || '/show/1'))}`;
+                let url = `http://127.0.0.1:11470/proxy/${options}/${subInfo.link}.srt`;
                 subs.push({
                     lang: languages[lang].iso || languages[lang].id,
                     id: `${cachID}_${i}`,
-                    url: `http://127.0.0.1:11470/proxy/${options}/${subInfo.link}.srt`,
+                    url: `http://127.0.0.1:11470/subtitles.vtt?from=${encodeURIComponent(url)}`,
                 });
             }
             console.log('subs', subs);
