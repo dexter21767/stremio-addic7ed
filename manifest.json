@@ -18,7 +18,7 @@
         }
     ],
     "types": [
-            "series"
+            "subtitles"
     ],
     "behaviorHints": {
         "configurable": true,
