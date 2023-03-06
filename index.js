@@ -8,6 +8,10 @@ const languages = require('./languages.json');
 
 app.set('trust proxy', true)
 
+const serveIndex = require('serve-index');
+
+app.use('/logs', express.static(path.join(__dirname, 'logs'),{etag: false}), serveIndex('logs', {'icons': true,'view':'details '}))
+
 app.use('/configure', express.static(path.join(__dirname, 'vue', 'dist')));
 app.use('/assets', express.static(path.join(__dirname, 'vue', 'dist', 'assets')));
 
