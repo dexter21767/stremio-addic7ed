@@ -38,7 +38,7 @@ async function subtitles(type, imdbid, lang) {
         }
 
         let subs = [];
-        if (subtitlesList[lang]) {
+        if (subtitlesList?.[lang]) {
             subtitles = subtitlesList[lang];
             for (let i = 0; i < subtitles.length; i++) {
                 let subInfo = subtitles[i];
@@ -52,8 +52,7 @@ async function subtitles(type, imdbid, lang) {
             }
             console.log('subs', subs);
             console.log("Cache keys", Cache.keys());
-            let cached = Cache.set(cachID, subs);
-            console.log("cached", cached)
+            if(subs) Cache.set(cachID, subs);
             return subs;
         }
     }
