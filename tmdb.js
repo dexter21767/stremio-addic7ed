@@ -32,7 +32,7 @@ async function getMeta(type, id) {
         let res = await request(url);
         //if ()
         console.log(res.data)
-        let title = res.data.tv_results[0].original_name.match(/[\u3400-\u9FBF]/) ? res.data.tv_results[0].name : res.data.tv_results[0].original_name;
+        let title = res.data.tv_results?.[0]?.original_name?.match(/[\u3400-\u9FBF]/) ? res.data.tv_results[0].name : res.data.tv_results[0].original_name;
         var slug = slugify(title, { replacement: '-', remove: undefined, lower: true, strict: true, trim: true });
         return { title: title, slug: slug }
     }

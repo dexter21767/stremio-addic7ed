@@ -52,7 +52,7 @@ async function subtitles(type, imdbid, lang) {
             }
             console.log('subs', subs);
             console.log("Cache keys", Cache.keys());
-            if(subs) Cache.set(cachID, subs);
+            if (subs) Cache.set(cachID, subs);
             return subs;
         }
     }
